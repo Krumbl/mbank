@@ -1,0 +1,163 @@
+/* .wrapper {
+    display: flex;
+    align-items: stretch;
+}
+
+#sidebar {
+    min-width: 100px;
+	max-width: 100px;
+	min-height: 100vh;
+}
+
+#sidebar.inactive {
+    margin-left: -100px;
+}
+
+a[data-toggle="collapse"] {
+    position: relative;
+}
+
+.dropdown-toggle::after {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+} 
+*/
+
+/* https://bootstrapious.com/p/bootstrap-sidebar */
+
+/* .wrapper { */
+    /* display: flex; */
+    /* align-items: stretch; */
+/* } */
+
+#sidebar.inactive {
+    margin-left: -100px;
+}
+
+a[data-toggle="collapse"] {
+    position: relative;
+}
+
+.dropdown-toggle::after {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+} 
+
+
+
+a, a:hover, a:focus {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+#sidebar {
+	min-width: 100px;
+	max-width: 100px;
+	height: 100vh;
+    background: #dee2e6;
+    /* color: #fff; */
+    transition: all 0.3s;
+}
+
+#sidebar ul.components {
+    padding: 20px 0;
+    border-bottom: 1px solid #47748b;
+}
+
+#sidebar ul li a {
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+}
+
+ul ul a {
+    font-size: 0.9em !important;
+    padding-left: 30px !important;
+}
+
+ul ul ul a {
+    font-size: 0.9em !important;
+    padding-left: 45px !important;
+}
+
+div.row {
+    margin-right: 0px; /* -15px default turns on scroll bar */
+}
+
+
+/* grid */
+/* div.row { */
+    /* background-color: #e3efef */
+/* } */
+/* div.col { */
+    /* border: 1px solid #4b4e4f; */
+/* } */
+
+
+:root {
+    --druid: #FF7D0A;
+    --deathknight: #C41F3B;
+    --demonhunter: #A330C9;
+    --hunter: #A9D271;
+    --mage: #40C7EB;
+    --monk: #00FF96;
+    --paladin: #F58CBA;
+    --prist: #FFFFFF;
+    --rogue: #FFF569;
+    --shaman: #0070DE;
+    --warlock: #8787ED;
+    --warrior: #C79C6E;
+}
+.deathknight{
+    color: var(--deathknight)!important
+}
+.demonhunter{
+    color: var(--demonhunter)!important
+}
+.druid {
+    color: var(--druid)!important
+}
+.hunter{
+    color: var(--hunter)!important
+}
+.mage{
+    color: var(--mage)!important
+}
+.monk{
+    color: var(--monk)!important
+}
+.paladin{
+    color: var(--paladin)!important
+}
+.priest{
+    color: var(--priest)!important
+}
+.rogue{
+    color: var(--rogue)!important
+}
+.shaman{
+    color: var(--shaman)!important
+}
+.warlock{
+    color: var(--warlock)!important
+}
+.warrior{
+    color: var(--warrior)!important
+}
+
+.moneygold {
+    padding-right: 15px;
+    color: #fff;
+}
+
+.moneygold::after {
+    content: "g";
+    content: url(../images/icons/money-gold.gif);
+}
